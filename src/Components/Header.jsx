@@ -62,9 +62,9 @@ const Header = () => {
         </div>
         {/* buttons */}
         <div className='space-x-3'>
-            <button className='bg-[#f0ac14] text-[#120f23] px-3 rounded-full'>Cart</button>
-            <button className='bg-[#f0ac14] text-[#120f23] px-3 rounded-full'>Log In</button>
-            <button className='bg-[#f0ac14] text-[#120f23] px-3 rounded-full'>Sign Up</button>
+            <button className='bg-[#f0ac14] text-[#120f23] px-3 py-1 rounded-full'>Cart</button>
+            <button className='bg-[#f0ac14] text-[#120f23] px-3 py-1 rounded-full'>Log In</button>
+            <button className='bg-[#f0ac14] text-[#120f23] px-3 py-1 rounded-full'>Sign Up</button>
         </div>
     </div>
   
