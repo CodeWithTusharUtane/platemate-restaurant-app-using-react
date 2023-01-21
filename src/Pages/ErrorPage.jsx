@@ -1,15 +1,14 @@
 import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
-const SignUp = () => {
+const ErrorPage = () => {
   return (
     <div className='bg-[#0d0d0e] text-white'>
       <Header/>
-      SignUp
-      
+      This is error page, you are on wrong url sir.
       <Footer/>
-      </div>
+    </div>
   )
 }
 
-export default SignUp
+export default ErrorPage
