@@ -9,7 +9,7 @@ const Hero = () => {
         </h2>
       </div>
       <div className="mb-5">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 lg:grid-cols-6">
         {
           HeroData.map((item, index)=>{
             const {name, image} = item;

@@ -8,6 +8,7 @@ import TodaySpecial from '../Components/TodaySpecial'
 import OurChefs from '../Components/OurChefs'
 import PhotoGallery from '../Components/PhotoGallery'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import MealScene from '../Components/MealScene'
 
 const Home = () => {
   return (
@@ -19,6 +20,8 @@ const Home = () => {
       <Hero/>
       <hr />
       <TodaySpecial/>
+      <hr />
+      <MealScene/>
       <hr />
       <OurLaurels/>
       <hr />
