@@ -9,6 +9,7 @@ import OurChefs from '../Components/OurChefs'
 import PhotoGallery from '../Components/PhotoGallery'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import MealScene from '../Components/MealScene'
+import QuickMenu from '../Components/QuickMenu'
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
       <Slider/>
       <hr />
       <Hero/>
+      <hr />
+      <QuickMenu/>
       <hr />
       <TodaySpecial/>
       <hr />

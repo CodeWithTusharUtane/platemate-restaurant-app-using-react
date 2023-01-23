@@ -13,7 +13,9 @@ const Header = () => {
           Plate<span>Mate</span>
         </div>
         <div className="">
+          <NavLink to="/cart" className={({isActive})=> isActive ? "text-white font-bold" : ""}>
           <FaShoppingCart />
+          </NavLink>
         </div>
 
         <div className="">
