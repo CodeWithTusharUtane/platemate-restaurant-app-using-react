@@ -82,27 +82,37 @@ const Footer = () => {
               {/* logos and links init */}
               <div className="mt-5 flex items-center justify-center gap-2 ">
                 <span className=""><BsInstagram/></span>
+                <a href="https://www.instagram.com/tushar_utane/" target="_blank">
                 Instagram
+                </a>
               </div>
 
               <div className="mt-5 flex items-center justify-center gap-2 ">
                 <span className=""><BsTwitter/></span>
+                <a href="https://twitter.com/tusharutane2" target="_blank">
                 Twitter
+                </a>
               </div>
 
               <div className="mt-5 flex items-center justify-center gap-2 ">
                 <span className=""><BsLinkedin/></span>
+                <a href="https://www.linkedin.com/feed/" target="_blank">
                 LinkedIn
+                </a>
               </div>
 
               <div className="mt-5  flex items-center justify-center gap-2 ">
                 <span className=""><BsFacebook/></span>
+                <a href="https://www.facebook.com/tushar.utane.3" target="_blank">
                 Facebook
+                </a>
               </div>
 
               <div className="mt-5 pb-5 flex items-center justify-center gap-2 ">
                 <span className=""><BsGithub/></span>
+                <a href="https://github.com/CodeWithTusharUtane" target="_blank">
                 Github
+                </a>
               </div>
             </div>
           </div>
