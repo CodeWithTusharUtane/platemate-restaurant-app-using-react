@@ -5,7 +5,7 @@ const Cart = () => {
   return (
     <div className='bg-[#0d0d0e] text-white'>
       <Header/>
-      Cart
+      Your Cart Items are here!!
       
       <Footer/>
       </div>

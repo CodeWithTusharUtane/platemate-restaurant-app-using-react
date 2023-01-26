@@ -9,7 +9,7 @@ const Offers = () => {
     <div className='bg-[#0d0d0e] text-white'>
       <Header/>
         <div className='text-6xl text-center mt-10 mb-10'>
-          Sorry! No Offers Today!!
+          Sorry! No Offers Today!!😊
         </div>
       <Footer/>
       </div>
